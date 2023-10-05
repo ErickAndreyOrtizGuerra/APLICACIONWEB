@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/fotos-premium/diseno-creativo-colores-fluorescentes-hecho-hojas-tropicales-colores-neon-planos-generados-ia_201606-8096.jpg'); /* Cambia 'tu_imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Agregamos un fondo semi-transparente */
+    border-radius: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Estilos para el formulario de registro */
+.styled-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+    animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    100% {
+        color: rgb(0, 255, 0);
+    }
+}
+

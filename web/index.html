@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Registro de Alumnos</a></li>
+                <li><a href="#">Acerca de Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="centered">Registro de Alumnos</h1>
+          
+            <form action="procesar_registro.php" method="post" class="styled-form">
+               
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Universidad UMG</p>
+    </footer>
+</body>
+</html>
